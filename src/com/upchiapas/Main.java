@@ -7,13 +7,9 @@ public class Main {
         Scanner entrada =new Scanner(System.in);
         byte op,i;
         //////////////////////////
-        int ;
-
-
-
-
-
-
+        int pisos,cuartos,baños,capacidadDePersonas = 0;
+        double dimesiones = 0.0;
+        String areaDeLavado,cochera,ubicacion,notaExtra,numeroDeContacto,bañoIndividual,internet,semiAmueblado,clima;
        //////////////////////////////////
         System.out.println("HOME BY DAMO");
         System.out.println("Menu de opciones");
