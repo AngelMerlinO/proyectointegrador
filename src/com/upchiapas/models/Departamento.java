@@ -97,19 +97,18 @@ public class Departamento {
     this.numeroDeContacto = numeroDeContacto;
   }
 
-    @Override
-    public String toString() {
-        return "Departamento{" +
-                "dimenciones=" + dimenciones +
-                ", bañoIndividual='" + bañoIndividual + '\'' +
-                ", internet='" + internet + '\'' +
-                ", semiAmueblado='" + semiAmueblado + '\'' +
-                ", capacidadDePersonas=" + capacidadDePersonas +
-                ", clima='" + clima + '\'' +
-                ", ubicacion='" + ubicacion + '\'' +
-                ", notaExtra='" + notaExtra + '\'' +
-                ", numeroDeContacto='" + numeroDeContacto + '\'' +
-                '}';
-    }
+  @Override
+  public String toString() {
+    return " | Visualización De Los Datos Del Departamento |" + "\n-----------------------------------------" +
+            "\nDimenciones = " + dimenciones +
+            "\nBaño Individual = '" + bañoIndividual + '\'' +
+            "\nInternet = '" + internet + '\'' +
+            "\nSemi Amueblado = '" + semiAmueblado + '\'' +
+            "\nCapacidad De Personas = " + capacidadDePersonas +
+            "\nClima = '" + clima + '\'' +
+            "\nUbicacion = '" + ubicacion + '\'' +
+            "\nNota Extra = '" + notaExtra + '\'' +
+            "\nNumero De Contacto = '" + numeroDeContacto + '\'';
+  }
 }
 
