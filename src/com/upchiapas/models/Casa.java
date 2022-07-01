@@ -94,4 +94,19 @@ public class Casa {
     public void setNumeroDeContacto(String numeroDeContacto) {
         this.numeroDeContacto = numeroDeContacto;
     }
+
+    @Override
+    public String toString() {
+        return "Casa{" +
+                "dimesiones=" + dimesiones +
+                ", pisos=" + pisos +
+                ", cuartos=" + cuartos +
+                ", baños=" + baños +
+                ", areaDeLavado='" + areaDeLavado + '\'' +
+                ", cochera='" + cochera + '\'' +
+                ", ubicacion='" + ubicacion + '\'' +
+                ", notaExtra='" + notaExtra + '\'' +
+                ", numeroDeContacto='" + numeroDeContacto + '\'' +
+                '}';
+    }
 }

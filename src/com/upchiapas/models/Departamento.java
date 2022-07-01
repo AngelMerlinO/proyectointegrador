@@ -96,5 +96,20 @@ public class Departamento {
   public void setNumeroDeContacto(String numeroDeContacto) {
     this.numeroDeContacto = numeroDeContacto;
   }
+
+    @Override
+    public String toString() {
+        return "Departamento{" +
+                "dimenciones=" + dimenciones +
+                ", bañoIndividual='" + bañoIndividual + '\'' +
+                ", internet='" + internet + '\'' +
+                ", semiAmueblado='" + semiAmueblado + '\'' +
+                ", capacidadDePersonas=" + capacidadDePersonas +
+                ", clima='" + clima + '\'' +
+                ", ubicacion='" + ubicacion + '\'' +
+                ", notaExtra='" + notaExtra + '\'' +
+                ", numeroDeContacto='" + numeroDeContacto + '\'' +
+                '}';
+    }
 }
 
