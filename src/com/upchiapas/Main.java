@@ -13,8 +13,8 @@ public class Main {
        //////////////////////////////////
         System.out.println("HOME BY DAMO");
         System.out.println("Menu de opciones");
-        System.out.println("1. Registrar inmueble ");
-        System.out.println("2. Mostrar inmueble");
+        System.out.println("1.- Registrar inmueble ");
+        System.out.println("2.- Mostrar inmueble");
         op = entrada.nextByte();
 
         switch (op){
