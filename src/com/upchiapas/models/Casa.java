@@ -5,12 +5,12 @@ public class Casa {
     int pisos;
     int cuartos;
     int banos;
-    double dimensiones;
     String areaDeLavado;
     String cochera;
     String ubicacion;
-    String contacto;
     String notasExtras;
+    String numeroDeContacto;
+
 
 
 }
